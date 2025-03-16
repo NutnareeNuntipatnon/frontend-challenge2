@@ -1,0 +1,45 @@
+@import "global.css";
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"] {
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    padding: 0 2px;
+    font-size: medium;
+    font-weight:normal;
+    transition: background-color 0.2s ease-in;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="date"]:focus  {
+    background-color: rgb(161, 196, 203);
+}
+
+input {
+    margin: 10px 5%;
+    font-family: defaultfont;
+}
+
+input[type="button"] {
+    width: 85px;
+    height: 35px;
+    font-weight: 600;
+    font-size: small;
+    border: 2px solid rgb(21, 105, 74);
+    border-radius: 10px;
+    box-shadow: 1px;
+    background-color: rgb(17, 139, 94);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease-in;
+}
+
+input[type="range"] {
+    border-color: black;
+}
+
+input[type="button"]:hover, input[type="range"]:hover {
+    background-color: rgb(21, 105, 74);
+}
+
+input[type="radio"] {
+    font-weight: border;
+}

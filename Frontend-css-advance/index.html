@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/hidden.css">
+    <link rel="stylesheet" href="styles/input.css">
+    <link rel="stylesheet" href="styles/container.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Registration</title>
+</head>
+<body>
+    
+        <div class="translate-center member-box">
+                <h1>Create an Account</h1>
+                <form action="">
+                    <div>
+                        <label for="username" class="bold-text">Username</label>
+                        <span class="breakaline">
+                            <input type="text" name="username" placeholder="Username" value="">
+                        </span>
+                        <label for="password" class="bold-text" >Password</label>
+                        <span class="breakaline">
+                            <input type="password" name="password" id="password" placeholder="Password" value="">
+                        </span>
+                    </div>
+                    <div>
+                        <span class="breakaline bold-text">Diet-Program</span>
+                        <input type="radio" id="keto" name="diet" value="keto">
+                        <label for="keto">Keto-diet</label>
+                        <input type="radio" id="paleo" name="diet" value="paleo">
+                        <label for="paleo">Paleo-diet</label>
+                        <input type="radio" id="if" name="diet" value="if">
+                        <label for="if">IF 16-8</label>
+                    </div>
+                    <div>
+                        <label for="themecolor" class="bold-text">Theme</label>
+                        <input type="color" name="themecolor" id="themecolor">
+                    </div>
+                    <div>
+                        <label for="birth" class="bold-text">Birth</label>
+                        <input type="date" name="birth" id="birth">
+                    </div>
+                    <div>
+                        <label for="email" class="bold-text" >Email</label>
+                        <input type="email" name="email" id="email" placeholder="something@example.com">
+                    </div>
+                    <div>
+                        <label for="photob" class="bold-text">Photo your body</label>
+                        <input type="file" name="photob" id="photob">
+                    </div>
+                    <div class="bmi-range">
+                        <label for="bmi" class="bold-text">BMI</label>
+                        <input type="range" name="bmi" id="bmi" min="0" max="200">
+                        <div class="tooltip">
+                            <i class="fa-solid fa-circle-question icon-1"></i>
+                            <span class="calculate-bmi">
+                                <span class="bold-text breakaline">BMI Calculator</span>
+                                <label for="height-bmi">Height :</label>
+                                <input type="number" name="" id="">
+                                <label for="weight-bmi">Weight :</label>
+                                <input type="number" name="" id="">
+                                <mark class="center-items"> result : ........</mark>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="center-items">
+                        <input type="button" value="Reset">
+                        <input type="button" value="Submit">
+                    </div>
+                </form>
+        </div>
+    
+</body>
+</html>

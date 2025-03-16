@@ -1,0 +1,23 @@
+@import url('global.css');
+
+.tooltip {
+    display: inline-block;
+}
+.tooltip .calculate-bmi {
+    visibility: hidden;
+    position: absolute;
+    border: 0px solid grey;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 160px;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 5px 5px;
+    box-shadow: 2px 2px 3px black;
+    box-sizing: border-box;
+}
+
+.tooltip:hover .calculate-bmi {
+    visibility: visible;
+}
+

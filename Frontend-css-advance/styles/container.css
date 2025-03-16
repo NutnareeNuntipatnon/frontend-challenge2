@@ -1,0 +1,25 @@
+.member-box {
+    border: 0px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px 30px;
+    width: 500px;
+    height: 650px;
+    backdrop-filter: blur(20px);
+    box-shadow: 2px 2px 10px;
+    background-color: rgba(169, 227, 239, 0.5);
+}
+
+.translate-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-items {
+    display: flex;
+    justify-content: center;
+}
+
+

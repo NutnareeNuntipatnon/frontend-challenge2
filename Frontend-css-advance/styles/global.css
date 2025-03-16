@@ -1,0 +1,74 @@
+@import url(/font-awesome-4.6.3/css/font-awesome.min.css);
+@font-face {
+    font-family: defaultfont;
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: defaultfont;
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-weight: bold;
+    }
+
+@font-face {
+        font-family: defaultfont;
+        src: url(../fonts/OpenSans-ExtraBold.ttf);
+        font-weight: bolder;
+}
+
+@font-face {
+    font-family: defaultfont;
+    src: url(../fonts/OpenSans-Light.ttf);
+    font-weight: lighter;
+}
+
+:root {
+    --green-highlight: rgb(174, 255, 225);
+    --normal-green: rgb(17, 139, 94);
+    --lighter-green: rgb(16, 194, 129);
+    --darker-green: rgb(21, 105, 74);
+  }
+
+
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg) no-repeat;
+    background-size: cover;
+    color: rgb(41, 51, 51);
+    font-family: defaultfont;
+}
+.breakaline {
+    display: block;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: var(--darker-green);
+    text-shadow: 2px 2px 1px rgb(255, 255, 255);
+}
+
+i {
+    font-size: 17px;
+    color:rgba(0, 0, 0, 0.5);
+    transition: color 0.3s ease-in;
+}
+
+i:hover {
+    color:rgba(0, 0, 0, 1);
+}
+
+mark {
+    background-color: var(--green-highlight);
+}
